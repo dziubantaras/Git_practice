@@ -1,0 +1,16 @@
+git clone https://github.com/dziubantaras/Git_practice.git
+git status
+$ git diff --staged
+git add .
+git status
+git commit -m 'this is first commit'
+git push origin main
+git pull
+git checkout branch_1
+git stash
+git checkout main
+git stash pop
+git status
+git add FILE_1
+git commit -m 'stashed changes'
+git push origin main
