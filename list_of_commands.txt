@@ -14,3 +14,7 @@ git status
 git add FILE_1
 git commit -m 'stashed changes'
 git push origin main
+git add .
+git commit -m 'added list of used commands'
+git push origin main
+touch .gitignore
